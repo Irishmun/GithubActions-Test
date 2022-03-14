@@ -1,5 +1,5 @@
 {
-    "name": "@irishmun/githubactions-test",
+    "name": "irishmun/githubactions-test",
     "version": "1.0.0",
     "description": "A",
     "main": "index.js",
