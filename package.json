@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/Irishmun/GithubActions-Test/issues"
     },
-    "homepage": "https://github.com/Irishmun/GithubActions-Test#readme"
+    "homepage": "https://github.com/Irishmun/GithubActions-Test#readme",
+    "publishConfig": {
+        "@Irishmun:registry": "https://npm.pkg.github.com"
+    }
 }
