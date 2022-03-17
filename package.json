@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/Irishmun/GithubActions-Test/issues"
     },
+    "publishConfig": {
+        "registry": "https://github.com/Irishmun/GithubActions-Test.git"
+    },
     "homepage": "https://github.com/Irishmun/GithubActions-Test#readme"
 }
