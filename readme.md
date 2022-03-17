@@ -11,4 +11,29 @@ add this to the package.json file
     },
 ```
 
+create a file called "tsconfig.json"
+
+put the following in it:
+```json
+{
+    "compilerOptions": {
+      "lib": ["es2017"],
+      "module": "commonjs",
+      "noImplicitReturns": true,    
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "sourceMap": true,
+      "target": "es5",
+      "declaration": true,
+      "types": [
+        "mocha", "node", "chai"
+      ]
+    },
+    "compileOnSave": true,
+    "include": [
+      "src"
+    ]
+}
+```
+
 The tags are the main cause for the issues, for each alteration, a new tag would have to be made.
