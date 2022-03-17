@@ -1,23 +1,19 @@
 {
-    "owner": "irishmun",
-    "name": "githubactions-test",
+    "name": "@irishmun/githubactions-test",
     "version": "1.0.0",
-    "description": "A",
+    "description": "it dont work easy",
     "main": "index.js",
     "scripts": {
         "test": "exit 0"
     },
     "repository": {
         "type": "git",
-        "url": "git:https://github.com/Irishmun/GithubActions-Test.git"
+        "url": "git+https://github.com/Irishmun/GithubActions-Test.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/Irishmun/GithubActions-Test/issues"
     },
-    "homepage": "https://github.com/Irishmun/GithubActions-Test#readme",
-    "publishConfig": {
-        "@Irishmun:registry": "https://npm.pkg.github.com"
-    }
+    "homepage": "https://github.com/Irishmun/GithubActions-Test#readme"
 }
