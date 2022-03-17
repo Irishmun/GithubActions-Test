@@ -1,8 +1,8 @@
 ## Findings:
 
-you have to manually edit the package.json so that it matches the @<username>/<repository name> schema
+you have to manually edit the package.json so that it matches the @*username*/*repository name* schema
 
-the package-lock.json names will just require the <username> in the "name" fields
+the package-lock.json names will just require the *username* in the "name" fields
  
 ----
 add this to the package.json file
